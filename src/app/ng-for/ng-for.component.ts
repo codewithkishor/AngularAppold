@@ -9,10 +9,10 @@ export class NgForComponent implements OnInit {
 
   title: string = 'Top 3 Bollywood Movies';
 
-  movies: Movie [] = [
-    {title: '3 idiots', director:'Rajkumar', cast:'Amir', releaseDate:'2009' },
-    {title: 'Rayba', director:'Rajkumar', cast:'Amir', releaseDate:'2009' }
-  ]
+  // movies: Movie [] = [
+  //   {title: '3 idiots', director:'Rajkumar', cast:'Amir', releaseDate:'2009' },
+  //   {title: 'Rayba', director:'Rajkumar', cast:'Amir', releaseDate:'2009' }
+  // ]
   constructor() { }
 
   ngOnInit() {
