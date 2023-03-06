@@ -9,6 +9,8 @@ import { TemplateformComponent } from './templateform/templateform.component';
 import { UserTableComponent } from './user-table/user-table.component';
 import { PipeexampleComponent } from './pipeexample/pipeexample.component';
 import { CustompipePipe } from './custompipe.pipe';
+import { Comp1Component } from './comp1/comp1.component';
+import { Comp2Component } from './comp2/comp2.component';
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { CustompipePipe } from './custompipe.pipe';
     TemplateformComponent,
     UserTableComponent,
     PipeexampleComponent,
-    CustompipePipe
+    CustompipePipe,
+    Comp1Component,
+    Comp2Component
   ],
   imports: [
     BrowserModule,
