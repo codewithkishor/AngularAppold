@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { UtilityService } from '../services/utility.service';
 
+
 @Component({
   selector: 'app-comp1',
   templateUrl: './comp1.component.html',
